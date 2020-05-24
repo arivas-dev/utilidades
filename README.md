@@ -1,36 +1,14 @@
 # Funciones útiles para JS
 
-##  | Comparar dos array de objetos | 
+##  Comparar dos array de objetos | compare two object array
 ```js
-const posibilidades = [
-  {
-    Nombre: 'Abdi',
-    Edad: 45
-  },
-  {
-    Nombre: 'Wuri',
-    Edad: 15
-  },
-  {
-    Nombre: 'Navaga',
-    Edad: 60
-  }
-];
+const posibilidades = [{Nombre: 'Abdi'},{Nombre: 'Wuri'},{ Nombre: 'Navaga'}];
 
 //Convierto cada objeto a string
 const strArray = posibilidades.map((e)=> JSON.stringify(e));
 // respuestas del usuario
-const datos = [
-  {
-    Nombre: 'Abdi',
-    Edad: 46
-  },
-  {
-    Nombre: 'Wuri',
-    Edad: 15
-  }
-];
-
+const datos = [{ Nombre: 'Abdi' },{Nombre: 'Wuri'}];
+//acum para contar las coincidencias
 let acum = 0;
 for(const i of datos){
   const exist = strArray.includes(JSON.stringify(i))
@@ -41,6 +19,5 @@ if (datos.length == acum){
 }else{
   console.log('Algún dato no estaba en las posibilidades')
 }
-
 
 ```
