@@ -21,3 +21,12 @@ if (datos.length == acum){
 }
 
 ```
+##  operador de propagación | spread operator 
+
+```js
+let itemA = ['A','B'];
+let itemB = ['B','C'];
+let itemAB = [...itemA,...itemB];
+
+//console.log(itemAB) = ["A", "B", "B", "C"]
+```
