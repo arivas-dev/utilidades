@@ -34,3 +34,6 @@ let itemAB = [...itemA,...itemB];
 ##  Laravel pusher
 https://stackoverflow.com/questions/62153997/binding-callbacks-on-laravel-echo-with-laravel-websockets
 
+reconnect
+https://github.com/beyondcode/laravel-websockets/issues/69
+
