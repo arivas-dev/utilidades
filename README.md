@@ -30,3 +30,7 @@ let itemAB = [...itemA,...itemB];
 
 //console.log(itemAB) = ["A", "B", "B", "C"]
 ```
+
+##  Laravel pusher
+https://stackoverflow.com/questions/62153997/binding-callbacks-on-laravel-echo-with-laravel-websockets
+
